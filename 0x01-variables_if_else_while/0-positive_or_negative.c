@@ -4,11 +4,14 @@
 
 #include <stdio.h>
 /* more headers goes there */
-
-
-
-/*
- * Program to chech if a number is positive or negative
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
 */
 
 int main(void)
