@@ -27,7 +27,7 @@ for (low = 'a'; low <= 'z'; low++)
 	if (low == e || low == q)
 		continue;
 	else
-		putchr(low);
+		putchar(low);
 }
 putchar('\n');
 return (0);
