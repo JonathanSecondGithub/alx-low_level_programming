@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_alphabet - Check description
  *
@@ -7,9 +7,7 @@
  *   * Return: Nothing.
  */
 void print_alphabet(void)
-
 {
-
 		char i;
 
 
