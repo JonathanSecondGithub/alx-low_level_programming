@@ -4,7 +4,7 @@
 /**
  *  * print_to_98 - Check Main
  *
- *   * @n: A input integer
+ *   * @x: A input integer
  *
  *    * Description: function that prints all natural numbers
  *
@@ -18,10 +18,10 @@ void print_to_98(int x)
 {
 	if (x <= 98)
 	{
-		for (; n <= 98; n++)
+		for (; x <= 98; x++)
 		{
-			printf("%d", n);
-			if (n == 98)
+			printf("%d", x);
+			if (x == 98)
 				continue;
 			printf(", ");
 																		}
@@ -29,12 +29,12 @@ void print_to_98(int x)
 	}
 	else
 	{
-		for (; n >= 98; n--)
+		for (; x >= 98; x--)
 		{
-			printf("%d", n);
-			if (n == 98)
+			printf("%d", x);
+			if (x == 98)
 				continue;
-																			printf(", ");
+			printf(", ");
 		}
 	printf("\n");
 	}
