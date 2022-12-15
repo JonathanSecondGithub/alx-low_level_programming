@@ -24,7 +24,7 @@ int _isalpha(int x)
 	{
 		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			if (c == lower || c == upper)
+			if (x == lower || x == upper)
 			isletter = 1;
 		}
 	}
