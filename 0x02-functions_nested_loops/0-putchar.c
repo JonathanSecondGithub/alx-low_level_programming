@@ -1,4 +1,4 @@
-#include<iostream>
+#include<stdio.h>
 #include  "main.h"
 using namespace std;
 /**
