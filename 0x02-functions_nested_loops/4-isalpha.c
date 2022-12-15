@@ -3,10 +3,9 @@
 
 
 /**
- *
  *  * _isalpha - Check Main
  *
- *   * @c: An input character
+ *   * @x: An input character
  *
  *    * Description: function returns 1 if the character is a
  *
@@ -17,7 +16,6 @@
    */
 
 int _isalpha(int x)
-
 {
 	char lower, upper;
 	int isletter = 0;
