@@ -10,7 +10,6 @@
  *     * @n: an input integer
  *
  *      * Return: A pointer to the resulting string
- *
 */
 
 char *_strncat(char *dest, char *src, int n)
@@ -31,7 +30,7 @@ char *_strncat(char *dest, char *src, int n)
 		n = srclen;
 
 	src = start;
-	
+
 	for (; i < n; i++)
 		*dest++ = *src++;
 
