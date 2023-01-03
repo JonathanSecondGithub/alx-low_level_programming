@@ -8,7 +8,6 @@
  *    * @accept: an input character with to locate into string s
  *
  *     * Return: returns pointer to c position
- *
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -20,7 +19,6 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		flag = 0;
 		while (*accept)
-	{
 
 	if (*accept == *s)
 	{
@@ -30,12 +28,12 @@ unsigned int _strspn(char *s, char *accept)
 	}
 
 	accept++;
-
+	}
 	s++;
-
 	accept = start;
 
 	if (flag == 0)
+	{
 		break;
 	}
 
