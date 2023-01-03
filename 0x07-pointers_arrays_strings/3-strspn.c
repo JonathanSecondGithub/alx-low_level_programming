@@ -20,13 +20,12 @@ unsigned int _strspn(char *s, char *accept)
 		flag = 0;
 		while (*accept)
 
-	if (*accept == *s)
-	{
-		count++;
-		flag = 1;
-		break;
-	}
-
+		if (*accept == *s)
+		{
+			count++;
+			flag = 1;
+			break;
+		}
 	accept++;
 	}
 	s++;
