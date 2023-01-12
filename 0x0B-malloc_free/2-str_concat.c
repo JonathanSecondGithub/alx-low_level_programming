@@ -10,27 +10,55 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int *s3, i = 0, j = 0;
+	int *s3, s1c = 0, s2c = 0, total;
+	char *str1, *str2, *new_str;
 
 	str1 = s1;
 	str2 = s2;
-	str3 = s3;
 
-	while (str1[i] != '\0')
+	if (s1 == NULL)
+		s1 = "";
+
+	while (*s1)
 	{
-		str3[j] = str1[i];
-		i++;
-		j++;
+		s1++;
+		s1c++;
 	}
 
-	i = 0;
+	s1 = str1;
 
-	while (str2[i] != '\0')
+	if (s2 == NULL)
+		s2 = "";
+
+	while (*s2)
 	{
-		str3[j] = str2[i];
-		i++;
-		j++;
+		s2++;
+		s2c++;
 	}
 
-	return (s3);
+	s2 = str2;
+
+	new_str = malloc(sizeof(char) * (s2c + s1c + 1));
+	str1 = new_str;
+
+	if (new_str == NULL)
+		return (NULL);
+
+	total = s1c + s2c;
+
+	if (; i < total; i++)
+	{	
+		if (i < s1c)
+		{
+			new_str[i] = *s1;
+			s1++;
+		}
+		else
+		{
+			new_str[i] = *s2;
+			s2++;
+		}
+	}
+	new_str[i] = '\0';
+	return (str1);
 }
