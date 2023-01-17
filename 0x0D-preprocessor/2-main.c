@@ -2,14 +2,11 @@
 
 /**
  * main - main function
- * @argc: number of parameter the main function receives
- * @argv: an array of all the parameters
- * Return: nothing
+ * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main()
 {
-	int count;
-
-	printf("%s", argv[5]);
+	printf("%s\n", __FILE__);
+	return (0);
 }
