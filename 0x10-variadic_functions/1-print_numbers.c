@@ -3,9 +3,9 @@
 #include "variadic_functions.h"
 
 /**
-print_numbers - function to print its parameters
-@separator: separator between the parameters
-@n: number of additional parameters the function
+*print_numbers - function to print its parameters
+*@separator: separator between the parameters
+*@n: number of additional parameters the function
 will take
 */
 
