@@ -6,7 +6,7 @@ int main()
     size_t len = 0;
     while (1)
     {
-        printf(" ");
+        printf("$");
         getline(&command, &len, stdin);
         printf("%s", command);
         printf("%zu\n", len);
