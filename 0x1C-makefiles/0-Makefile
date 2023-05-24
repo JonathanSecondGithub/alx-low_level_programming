@@ -1,5 +1,5 @@
 #First makefile
-output: main.o school.o
+all: main.o school.o
 	gcc school.o main.o -o school
 
 school.o: school.c
