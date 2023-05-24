@@ -5,4 +5,4 @@ OBJ = $(patsubst %.c, %.o, $(SRC))
 NAME = school
 
 all: $(OBJ)
-	$(CC) $(SRC) -o NAME
+	$(CC) $(SRC) -o $(NAME)
