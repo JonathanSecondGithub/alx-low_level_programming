@@ -2,11 +2,5 @@
 CC = gcc
 SRC = school.c main.c
 
-all: main.o school.o
+all: $(SRC)
 	$(CC) $(SRC) -o school
-
-main.o: main.c
-	gcc -c main.c
-
-school.o: school.c
-	gcc -c school.c
