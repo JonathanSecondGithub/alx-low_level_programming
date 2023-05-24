@@ -1,5 +1,5 @@
 #Makefile with additional commands
-C = gcc
+CC = gcc
 SRC = main.c school.c
 OBJ = $(patsubst %.c, %.o, $(SRC))
 NAME = school
