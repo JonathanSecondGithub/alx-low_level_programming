@@ -5,13 +5,13 @@ OBJ = $(patsubst %.c, %.o, $(SRC))
 NAME = school
 RM = rm -rf
 
-all: $(OBJ)
+all:
 	$(CC) $(SRC) -o $(NAME)
 
-clean: $(OBJ)
+clean:
 	$(RM) $(NAME) *~
 
-oclean: $(OBJ)
+oclean:
 	$(RM) $(OBJ)
 
 fclean: clean oclean
