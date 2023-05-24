@@ -9,13 +9,11 @@ all: $(OBJ)
 	$(CC) $(SRC) -o $(NAME)
 
 clean: $(OBJ)
-	$(RM) $(NAME)
+	$(RM) $(NAME) *~
 
 oclean: $(OBJ)
-	$(RM) *.o
+	$(RM) $(OBJ)
 
-fclean: $(OBJ)
-	$(RM) $(NAME) *.o
+fclean: clean oclean
 
-re: $(OBJ)
-	$(CC) $(SRC) -o $(NAME)
+re: clean all
