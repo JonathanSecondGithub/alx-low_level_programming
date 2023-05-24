@@ -1,0 +1,12 @@
+#A makefile with variables
+CC = gcc
+SRC = school.c main.c
+
+all: main.o school.o
+	$(CC) $(SRC)
+
+main.o: main.c
+	gcc -c main.c
+
+school.o: school.c
+	gcc -c school.c
