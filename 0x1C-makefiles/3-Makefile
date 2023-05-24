@@ -1,0 +1,21 @@
+#Makefile with additional commands
+C = gcc
+SRC = main.c school.c
+OBJ = $(patsubst %.c, %.o, $(SRC))
+NAME = school
+RM = rm -rf
+
+all: $(OBJ)
+	$(CC) $(SRC) -o $(NAME)
+
+clean: $(OBJ)
+	$(RM) $(NAME)
+
+oclean: $(OBJ)
+	$(RM) *.o
+
+fclean: $(OBJ)
+	$(RM) $(NAME) *.o
+
+re: $(OBJ)
+	$(CC) $(SRC) -o $(NAME)
