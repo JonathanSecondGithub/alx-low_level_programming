@@ -16,4 +16,4 @@ oclean:
 
 fclean: oclean clean
 
-re: all
+re: oclean all
