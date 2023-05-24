@@ -3,7 +3,7 @@ C = gcc
 SRC = main.c school.c
 OBJ = $(patsubst %.c, %.o, $(SRC))
 NAME = school
-RM = rm -rf
+RM = rm -f
 
 all:
 	$(CC) $(SRC) -o $(NAME)
