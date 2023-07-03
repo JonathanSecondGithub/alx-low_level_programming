@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+  * jack_bauer - Check description
+  * Description: print time of the day
+  * Return: Nothing.
+ */
+
 void jack_bauer(void)
 {
 	int h = 0;
@@ -10,11 +16,11 @@ void jack_bauer(void)
 	while (h <= 2)
 	{
 		min = 0;
-		while (min < 9)
+		while (min <= 9)
 		{
 			sec1 = 0;
 			while (sec1 <= 5)
-			{	
+			{
 				sec2 = 0;
 				while (sec2 <= 9)
 				{
@@ -26,7 +32,7 @@ void jack_bauer(void)
 					_putchar('\n');
 					sec2 = sec2 + 1;
 				}
-				sec1 = sec1 + 1;	
+				sec1 = sec1 + 1;
 			}
 			min = min + 1;
 		}
