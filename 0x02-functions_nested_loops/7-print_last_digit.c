@@ -8,15 +8,13 @@
  */
 
 int print_last_digit(int x)
-{
-	char snum;
+{	
+	int r;
 	if (x < 0)
 		x = -1 * x;
 
 	if (x > 10)
 		x = x % 10;
-
-	itoa(x,snum,1);
-	_putchar(snum);
-	return (x);
+	r = x;
+	return (x r);
 }
