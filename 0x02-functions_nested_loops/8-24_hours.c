@@ -10,21 +10,21 @@ void jack_bauer(void)
 	while (h <= 2)
 	{
 		min = 0;
-		while (min <= 4)
+		while (min < 9)
 		{
 			sec1 = 0;
 			while (sec1 <= 5)
-			{
+			{	
 				sec2 = 0;
 				while (sec2 < 9)
 				{
-					sec2 = sec2 + 1;
 					_putchar(h + '0');
 					_putchar(min + '0');
 					_putchar(':');
 					_putchar(sec1 + '0');
 					_putchar(sec2 + '0');
 					_putchar('\n');
+					sec2 = sec2 + 1;
 				}
 				sec1 = sec1 + 1;	
 			}
