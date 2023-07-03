@@ -16,7 +16,7 @@ void jack_bauer(void)
 			while (sec1 <= 5)
 			{	
 				sec2 = 0;
-				while (sec2 < 9)
+				while (sec2 <= 9)
 				{
 					_putchar(h + '0');
 					_putchar(min + '0');
