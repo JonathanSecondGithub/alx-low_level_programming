@@ -21,7 +21,7 @@ void jack_bauer(void)
 					sec2 = sec2 + 1;
 					_putchar(h + '0');
 					_putchar(min + '0');
-					_putchar(":");
+					_putchar(':');
 					_putchar(sec1 + '0');
 					_putchar(sec2 + '0');
 					_putchar('\n');
