@@ -9,13 +9,12 @@ include "main.h"
 
 int print_last_digit(int x)
 {
-	int r;
-
 	if (x < 0)
-		r = -1 * (r % 10);
-	else
-		r = x % 10;
+		x = -1 * (x);
 
-	_putchar(r);
-	_putchar(', ');
+	while (x > 10)
+		x = x % 10
+
+	_putchar(x);
+	
 }
