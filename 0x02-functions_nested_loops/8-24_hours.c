@@ -62,4 +62,5 @@ void jack_bauer(void)
 			min = min + 1;
 		}
 		h = h + 1;
+	}
 }
