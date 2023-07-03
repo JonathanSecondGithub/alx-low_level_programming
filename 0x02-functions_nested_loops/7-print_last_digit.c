@@ -9,7 +9,7 @@
 
 int print_last_digit(int x)
 {
-	char snum[1];
+	char snum;
 	if (x < 0)
 		x = -1 * x;
 
