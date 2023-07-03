@@ -39,7 +39,7 @@ void jack_bauer(void)
 		h = h + 1;
 	}
 	
-	while (h = 2)
+	while (h < 3)
 	{
 		min = 0;
 		while (min <= 4)
