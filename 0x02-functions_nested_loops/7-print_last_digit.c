@@ -9,12 +9,14 @@
 
 int print_last_digit(int x)
 {
+	char snum[1];
 	if (x < 0)
 		x = -1 * x;
 
 	if (x > 10)
 		x = x % 10;
 
-	_putchar(x);
+	itoa(x,snum,1);
+	_putchar(snum);
 	return (x);
 }
