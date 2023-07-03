@@ -42,7 +42,7 @@ void jack_bauer(void)
 	while (h < 3)
 	{
 		min = 0;
-		while (min <= 4)
+		while (min < 4)
 		{
 			sec1 = 0;
 			while (sec1 <= 5)
