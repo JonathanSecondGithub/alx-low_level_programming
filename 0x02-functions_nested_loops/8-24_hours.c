@@ -25,8 +25,6 @@ void jack_bauer(void)
 					_putchar(sec1 + '0');
 					_putchar(sec2 + '0');
 					_putchar('\n');
-					//printf("%d%d:%d%d",h,min,sec1,sec2 );
-					//printf("\n");
 				}
 				sec1 = sec1 + 1;	
 			}
