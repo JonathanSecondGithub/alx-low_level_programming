@@ -7,12 +7,12 @@
  * @right : last element
  * Return: nothing
 */
-int print_array(int *array, int left, int right)
+int print_array(int *array, int size)
 {
 	int i;
 
 	if (array == NULL || size == 0)
-		return;
+		return (-1);
 
 	printf("Searching in array: ");
 
@@ -24,6 +24,7 @@ int print_array(int *array, int left, int right)
 			printf(", %d", array[i]);
 	}
 	printf("\n");
+	return (0);
 }
 
 /**
